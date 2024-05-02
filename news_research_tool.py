@@ -22,7 +22,8 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 file_path = "faiss_index.pkl"
 
-model_name = sys.argv[1]
+#model_name = sys.argv[1]
+model_name = 'LLaMA3-70b'
 
 def news_data(): 
     urls=[]
