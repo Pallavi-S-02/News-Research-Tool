@@ -19,6 +19,7 @@ def main():
     if process_url_clicked:
         data = load_url_data(urls,main_placeholder)
         check_url_access(data,main_placeholder)
+        stop_processing = True
         if not stop_processing:
             create_chunks_and_embeddings(data,main_placeholder)
     if not stop_processing:
