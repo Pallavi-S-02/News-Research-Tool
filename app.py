@@ -10,6 +10,7 @@ from news_research_tool import news_data, load_llm, load_url_data, check_url_acc
 from news_research_tool import file_path, model_name
 
 def main():
+    st.set_page_config(page_title="News Research Tool")
     st.title('News Research Tool 📈')
     st.sidebar.title('News Article URLs')
     urls = news_data()
