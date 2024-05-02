@@ -56,7 +56,7 @@ def load_url_data(urls,main_placeholder):
     return data
 
 
-def check_url_access(data,main_placeholder):
+def check_url_access(data,main_placeholder,stop_processing=True):
     if any('Access Denied' in doc.page_content for doc in data):
         urls_with_access_denied = [doc.metadata.get('source', '') for doc in data if 'Access Denied' in doc.page_content]
         access_denied_msg = "Sorry, I don't have permission to access the following links:\n\n"
@@ -65,6 +65,9 @@ def check_url_access(data,main_placeholder):
         main_placeholder.text(access_denied_msg)
         #stop_processing = True  # Set flag to stop further processing
         #print(stop_processing)
+        return stop_processing
+    else:
+        return stop_processing==False
 
 def create_chunks_and_embeddings(data,main_placeholder):
     text_splitter = RecursiveCharacterTextSplitter(
