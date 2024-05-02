@@ -63,7 +63,7 @@ def check_url_access(data,main_placeholder):
         for url in urls_with_access_denied:
             access_denied_msg += f"- {url}\n"
         main_placeholder.text(access_denied_msg)
-        stop_processing = True  # Set flag to stop further processing
+        #stop_processing = True  # Set flag to stop further processing
         #print(stop_processing)
 
 def create_chunks_and_embeddings(data,main_placeholder):
