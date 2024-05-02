@@ -64,13 +64,7 @@ def check_url_access(data,main_placeholder, stop_processing=True):
         access_denied_msg = "Sorry, I don't have permission to access the following links:\n\n"
         for url in urls_with_access_denied:
             access_denied_msg += f"- {url}\n"
-        #main_placeholder.text(access_denied_msg)
-        #main_placeholder.text(access_denied_msg)
         main_placeholder.text(access_denied_msg)
-        #stop_processing = True  # Set flag to stop further processing
-        #print(stop_processing)
-        #stop_processing 
-        #print('st', stop_processing)
         return stop_processing
     else:
         return stop_processing==False
