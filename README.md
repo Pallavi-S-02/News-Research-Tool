@@ -20,6 +20,10 @@ This is a News Research Tool that empowers you to gain valuable insights directl
 
 link - https://news-research-tool.streamlit.app/
 
-
 ![image](https://github.com/Pallavi-S-02/News-Research-Tool/assets/83487183/2b22970d-f890-4d16-9a18-e931bc1f6d74)
+
+URLs used here are - 
+1. https://www.businesstoday.in/technology/news/story/indian-origin-astronaut-sunita-williams-ready-for-third-space-mission-as-pilot-of-boeings-starliner-428423-2024-05-06
+2. https://www.businesstoday.in/technology/news/story/twitters-ex-ceo-jack-dorsey-confirms-hes-no-longer-a-part-of-bluesky-board-428383-2024-05-06
+3. https://www.businesstoday.in/technology/news/story/nobody-does-dishes-better-than-i-do-nvidias-jensen-huang-on-what-it-takes-to-build-a-trillion-dollar-firm-428349-2024-05-05
 
