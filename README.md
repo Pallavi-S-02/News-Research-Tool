@@ -1,4 +1,4 @@
-### News Research Tool 
+# News Research Tool 
 
 ## Description: 
 
