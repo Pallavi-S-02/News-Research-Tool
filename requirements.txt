@@ -19,3 +19,4 @@ protobuf==3.20.*
 groq
 langchain-groq
 pysqlite3-binary
+psutil
